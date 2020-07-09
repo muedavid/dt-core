@@ -4,7 +4,7 @@ echo "robot name?"
 read DUCKIEBOT_NAME
 
 
-dts duckiebot demo --demo_name all --duckiebot_name $DUCKIEBOT_NAME --package_name car_interface --image duckietown/dt-car-interface:daffy
+dts duckiebot demo --demo_name all --duckiebot_name $DUCKIEBOT_NAME --package_name car_interface --image duckietown/dt-car-interface:daffy-arm32v7
 
 sleep 20
 
